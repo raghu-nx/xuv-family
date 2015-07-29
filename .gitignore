@@ -1,0 +1,6 @@
+#Ignore the intermediates of the build process
+**/build
+
+#Ignore the eclipse project and settings
+**/.project
+**/.settings
