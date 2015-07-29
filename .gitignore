@@ -4,3 +4,4 @@
 #Ignore the eclipse project and settings
 **/.project
 **/.settings
+**/.classpath
