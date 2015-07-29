@@ -1,0 +1,24 @@
+CREATE USER 'raghuc_all' IDENTIFIED BY 'CrossingTest'
+
+DROP USER 'raghuc_all'
+
+GRANT all ON HELLO_WORLD.* TO 'raghuc_all'; 
+
+CREATE DATABASE HELLO_WORLD;
+
+DROP DATABASE HelloWorld;
+
+USE HELLO_WORLD;
+
+CREATE TABLE IF NOT EXISTS PERSON(
+ID BIGINT PRIMARY KEY,
+FIRST_NAME VARCHAR(40),
+LAST_NAME VARCHAR(40)
+);
+
+INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME) VALUES (1, 'Raghu', 'Puligilla');
+
+select * from Person;
+select count(*) from Person;
+
+SHOW DATABASES;
